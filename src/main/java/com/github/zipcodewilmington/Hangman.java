@@ -8,4 +8,9 @@ package com.github.zipcodewilmington;
  * @date 5/27/21 11:02 AM
  */
 public class Hangman {
+
+    public static void main(String[] args) {
+       Wordguess guessGame = new Wordguess();
+       guessGame.runGame();
+    }
 }
